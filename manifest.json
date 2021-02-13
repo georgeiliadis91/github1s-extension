@@ -1,0 +1,14 @@
+{
+  "name": "Github1s redirect",
+  "version": "1.0",
+  "description": "Redirect and open repository on Github1s",
+  "manifest_version": 2,
+  "permissions": ["*://github.com/*"],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "icons": {
+    "128": "icon.png"
+  }
+}
